@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #10101E;
+    overflow: hidden;
+}
+.datetime{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;
+    background: #10101E;
+    font-family: 'Segoe UI', sans-serif;
+    width: 800px;
+    border: 3px solid #2E94E3;
+    padding: 15px 10px;
+    border-radius: 5px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1));
+    transition: 0.5s;
+     transition-property: background, box-shadow;
+     margin-top: 50px;
+}
+.datetime:hover{
+    background: #2E94E3;
+    box-shadow: 0 0 30px #2E94E3;
+}
+.datetime:hover .border{
+    color: #10101E;
+}
+.date{
+    font-size: 3em;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.border{
+    color: #2E94E3;
+    font-weight: 900;
+    
+    transition: 0.5s;
+}
+.waktu{
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Passion One', cursive;
+    gap: 30px;
+}
+.waktu span:not(:last-child){
+    position: relative;
+    margin: 0 6px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.waktu span:last-child{
+    background: #2E94E3;
+    font-size: 0.6em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+ .text{
+    height: 100px;
+    width: 85%;
+    margin: 130px auto 0;
+    position: relative;
+    padding-bottom: 100px;
+    color: #fff;
+    text-shadow: 0 0 30px #2E94E3;
+    font-size: 1.2em;
+    text-transform: capitalize;
+    /* font-family: 'Caveat', cursive; */
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+}
+.text h1::before{
+
+    animation: ani 20s linear infinite;
+    content: '';
+}
+
+@keyframes ani{
+    0%{
+        content: 'i ';
+    }
+    1%{
+        content: 'i h';
+    }
+    2%{
+        content: 'i ho';
+    }
+    3%{
+        content: 'i hop ';
+    }
+    4%{
+        content: 'i hope';
+    }
+    5%{
+        content: "i hope i";
+    }
+    6%{
+        content: 'i hope in';
+    }
+    7%{
+        content: 'i hope in 2';
+    }
+    8%{
+        content: 'i hope in 20';
+    }
+    9%{
+        content: 'i hope in 202';
+    }
+    10%{
+        content: 'i hope in 2023';
+    }
+    11%{
+        content: 'i hope in 2023 i';
+    }
+    12%{
+        content: 'i hope in 2023 it';
+    }
+    13%{
+        content: 'i hope in 2023 it c';
+    }
+    14%{
+        content: 'i hope in 2023 it ca';
+    }
+    15%{
+        content: 'i hope in 2023 it can';
+    }
+    16%{
+        content: 'i hope in 2023 it can b';
+    }
+    17%{
+        content: 'i hope in 2023 it can be';
+    }
+    18%{
+        content: 'i hope in 2023 it can be m';
+    }
+    19%{
+        content: 'i hope in 2023 it can be mu';
+    }
+    20%{
+        content: 'i hope in 2023 it can be muc';
+    }
+    21%{
+        content: 'i hope in 2023 it can be much';
+    }
+    22%{
+        content: 'i hope in 2023 it can be much b';
+    }
+    23%{
+        content: 'i hope in 2023 it can be much be';
+    }
+    24%{
+        content: 'i hope in 2023 it can be much bet';
+    }
+    25%{
+        content: 'i hope in 2023 it can be much bett';
+    }
+    26%{
+        content: 'i hope in 2023 it can be much bette';
+    }
+    27%{
+        content: 'i hope in 2023 it can be much better';
+    }
+    28%{
+        content: 'i hope in 2023 it can be much better a';
+    }
+    29%{
+        content: 'i hope in 2023 it can be much better an';
+    }
+    30%{
+        content: 'i hope in 2023 it can be much better and';
+    }
+    31%{
+        content: 'i hope in 2023 it can be much better and o';
+    }
+    32%{
+        content: 'i hope in 2023 it can be much better and of';
+    }
+    33%{
+        content: 'i hope in 2023 it can be much better and of c';
+    }
+    34%{
+        content: 'i hope in 2023 it can be much better and of co';
+    }
+    35%{
+        content: 'i hope in 2023 it can be much better and of cou';
+    }
+    36%{
+        content: 'i hope in 2023 it can be much better and of cous';
+    }
+    37%{
+        content: 'i hope in 2023 it can be much better and of couse';
+    }
+    38%{
+        content: 'i hope in 2023 it can be much better and of couse i';
+    }
+    39%{
+        content: 'i hope in 2023 it can be much better and of couse in';
+    }
+    40%{
+        content: 'i hope in 2023 it can be much better and of couse in t';
+    }
+    41%{
+        content: 'i hope in 2023 it can be much better and of couse in th';
+    }
+    42%{
+        content: 'i hope in 2023 it can be much better and of couse in the';
+    }
+    43%{
+        content: 'i hope in 2023 it can be much better and of couse in the f';
+    }
+    44%{
+        content: 'i hope in 2023 it can be much better and of couse in the fu';
+    }
+    45%{
+        content: 'i hope in 2023 it can be much better and of couse in the fut';
+    }
+    46%{
+        content: 'i hope in 2023 it can be much better and of couse in the futu';
+    }
+    47%{
+        content: 'i hope in 2023 it can be much better and of couse in the futur';
+    }
+    48%{
+        content: 'i hope in 2023 it can be much better and of couse in the future';
+    }
+    49%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i';
+    }
+    50%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i t';
+    }
+    51%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i tr';
+    }
+    52%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try';
+    }
+    53%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try t';
+    }
+    54%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to';
+    }
+    55%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to l';
+    }
+    56%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to le';
+    }
+    57%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to lea';
+    }
+    58%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to lear';
+    }
+    59%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to learn';
+    }
+    60%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to learn e';
+    }
+    61%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to learn ev';
+    }
+    62%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to learn eve';
+    }
+     63%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to learn even';
+    }
+    64%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to learn even m';
+    }
+    65%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to learn even mo';
+    }
+    66%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to learn even mor';
+    }
+    67%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to learn even more';
+    }
+    68%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to learn even more a';
+    }
+    69%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to learn even more ab';
+    }
+    70%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to learn even more abo';
+    }
+    71%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to learn even more abou';
+    }
+    72%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to learn even more about';
+    }
+    73%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to learn even more about p';
+    }
+    74%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to learn even more about pr';
+    }
+    75%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to learn even more about pro';
+    }
+    76%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to learn even more about prog';
+    }
+    77%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to learn even more about progr';
+    }
+    78%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to learn even more about progra';
+    }
+    79%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to learn even more about program';
+    }
+    80%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to learn even more about programm';
+    }
+    81%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to learn even more about programmi';
+    }
+    82%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to learn even more about programmin';
+    }
+    83%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to learn even more about programming';
+    }
+    85%{
+        content: 'i hope in 2023 it can be much better and of couse in the future i try to learn even more about programming';
+    }
+    89%{
+        content: 'THANK YOU 2022';
+    }
+} 
+
+/* animation petasan */
+.animation-container{
+    z-index: 999;
+    position: absolute;
+    width: 750px;
+    height: 550px;
+}
+.burst{
+    position: absolute;
+}
+.burst .line{
+    position: absolute;
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+}
+
+.burst .line:nth-child(1){
+    background-color: #ea4335;
+    animation: move01 2s linear infinite;
+}
+@keyframes move01 {
+    0%{
+        transform: translate(0,0);
+        opacity: 0;
+    }
+    50%{
+        transform: translate(0,-90px);
+        opacity: 1;
+    }
+    100%{
+        transform: translate(0,-140px);
+        opacity: 0;
+    }
+}
+.burst .line:nth-child(2){
+    background-color: #34a853;
+    animation: move02 2s linear infinite;
+}
+@keyframes move02 {
+    0%{
+        transform: rotate(45deg) translate(0,0);
+        opacity: 0;
+    }
+    50%{
+        transform: rotate(45deg) translate(0,-90px);
+        opacity: 1;
+    }
+    100%{
+        transform: rotate(45deg) translate(0,-140px);
+        opacity: 0;
+    }
+}
+.burst .line:nth-child(3){
+    background-color: #4285f4;
+    animation: move03 2s linear infinite;
+}
+@keyframes move03 {
+    0%{
+        transform: rotate(90deg) translate(0,0);
+        opacity: 0;
+    }
+    50%{
+        transform: rotate(90deg) translate(0,-90px);
+        opacity: 1;
+    }
+    100%{
+        transform: rotate(90deg) translate(0,-140px);
+        opacity: 0;
+    }
+}
+.burst .line:nth-child(4){
+    background-color: #fbbc05;
+    animation: move04 2s linear infinite;
+}
+@keyframes move04 {
+    0%{
+        transform: rotate(135deg) translate(0,0);
+        opacity: 0;
+    }
+    50%{
+        transform: rotate(135deg) translate(0,-90px);
+        opacity: 1;
+    }
+    100%{
+        transform: rotate(135deg) translate(0,-140px);
+        opacity: 0;
+    }
+}
+.burst .line:nth-child(5){
+    background-color: #DC18B9;
+    animation: move05 2s linear infinite;
+}
+@keyframes move05 {
+    0%{
+        transform: rotate(180deg) translate(0,0);
+        opacity: 0;
+    }
+    50%{
+        transform: rotate(180deg) translate(0,-90px);
+        opacity: 1;
+    }
+    100%{
+        transform: rotate(180deg) translate(0,-140px);
+        opacity: 0;
+    }
+}
+.burst .line:nth-child(6){
+    background-color: #FF5A00;
+    animation: move06 2s linear infinite;
+}
+@keyframes move06 {
+    0%{
+        transform: rotate(225deg) translate(0,0);
+        opacity: 0;
+    }
+    50%{
+        transform: rotate(225deg) translate(0,-90px);
+        opacity: 1;
+    }
+    100%{
+        transform: rotate(225deg) translate(0,-140px);
+        opacity: 0;
+    }
+}
+.burst .line:nth-child(7){
+    background-color: #8621F8;
+    animation: move07 2s linear infinite;
+}
+@keyframes move07 {
+    0%{
+        transform: rotate(270deg) translate(0,0);
+        opacity: 0;
+    }
+    50%{
+        transform: rotate(270deg) translate(0,-90px);
+        opacity: 1;
+    }
+    100%{
+        transform: rotate(270deg) translate(0,-140px);
+        opacity: 0;
+    }
+}
+.burst .line:nth-child(8){
+    background-color: #FFFF1B;
+    animation: move08 2s linear infinite;
+}
+@keyframes move08 {
+    0%{
+        transform: rotate(315deg) translate(0,0);
+        opacity: 0;
+    }
+    50%{
+        transform: rotate(315deg) translate(0,-90px);
+        opacity: 1;
+    }
+    100%{
+        transform: rotate(315deg) translate(0,-140px);
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
